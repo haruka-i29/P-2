@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+#wrap {
+  margin: 0 auto;
+  width: 960px;
+}
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+img {
+  border: 0px;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic" , "メイリオ" , Meirio, Osaka, "MS PGothic",  sans-self;
+  color: #630;
+  line-height: 25px;
+  line-height: : 25px;
+  font-size: 0.95em;
+}
+
+h1 {
+  font-size: 0.9em;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #630;
+}
+
+a:visited {
+  color: #630;
+}
+
+a:hover {
+  color: #630;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #630;
+}
+
+#menu {
+  margin: 0px;
+  padding: 0px;
+}
+
+#menu li {
+  float: left;
+  list-style-type: none;
+}
+
+#mainimg {
+  width: 960px;
+  height: 350px;
+  float: left;
+  margin: 10px 0px 15px 0px;
+}
+
+#newsbox {
+  width: 593px;
+  height: auto;
+  border: solid 1px #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+#newsbox p {
+  border-bottom: dashed 1px #ccc;
+}
+
+.midasi {
+  border-bottom: dashed 2px #c30;
+  font-weight: bold;
+  color: #c30;
+  font-size: 1.2em;
+}
+
+.contentsbox {
+  width: 593px;
+  height: auto;
+  border: solid 1px #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+
+.imgbox {
+  width: 230px;
+  height: 167px;
+  float: right;
+  margin: 10px 0px 10px 25px;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  font-size: 0.9em;
+  margin: 0px 0px 20px 0px;
+}
+
+#contents {
+  width: 615px;
+  float: left;
+}
+
+#sidenavi {
+  width: 330px;
+  margin-left: 15px;
+  float: left;
+}
+
+#goannani {
+  font-size: 1.2em;
+  border-bottom: solid 2px #c30;
+  margin: 0px 0px 15px 0px ;
+  color: #c30
+}
+
+.sidebox {
+  width: 330px;
+  height: 130px;
+  margin-bottom: 15px;
+}
+
+footer {
+  clear: both;
+  height: 50px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 0.85em;
+  background-image: url(footer.gif);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.minibox {
+  width: 135px;
+  height: 135px;
+  margin-right: 0px 10px 10px 0px;
+  float: left;
+}
+
+.tablestyle {
+  text-align: left;
+  width: 593px;
+}
+
+.tablestyle td {
+  border-bottom: dashed 1px #ccc;
+}
+
+.tablestyle th {
+  background-color: #630;
+  color: #fff;
+  text-align: center;
+}
